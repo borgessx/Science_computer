@@ -1,0 +1,9 @@
+**Herança** é um conceito da programação orientada a objetos onde uma classe (derivada) herda atributos e métodos de outra classe (base). 
+Isso evita a repetição de código e facilita a criação de estruturas mais organizadas. É um dos pilares da POO porque permite reutilização, extensão e manutenção mais fácil do código. 
+A classe derivada pode adicionar novos comportamentos e se tornar mais específica que a classe base.
+
+**Listas** são estruturas de dados que armazenam elementos em ordem. Quando implementadas com vetores, temos **listas estáticas**, com tamanho fixo e elementos em posições contíguas na memória. 
+Já as **listas dinâmicas** usam ponteiros e permitem tamanho variável, com elementos ligados entre si, o que dá mais flexibilidade e melhor uso da memória.
+
+A herança se conecta ao uso de **estruturas de dados** quando criamos classes para listas genéricas e outras mais específicas, como listas estáticas ou dinâmicas, que herdam comportamentos e 
+implementam o que for necessário. Isso mostra como a herança ajuda a criar soluções modulares, reutilizáveis e adaptadas a diferentes necessidades dentro da programação orientada a objetos.
