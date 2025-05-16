@@ -1,0 +1,9 @@
+# diferença entre classes e objetos
+
+*Classes* são como moldes ou estruturas que definem as características (atributos) e comportamentos (métodos) de um tipo de objeto. 
+Por exemplo, uma classe chamada Carro pode ter atributos como cor, modelo e velocidade, além de métodos como acelerar() ou frear().
+
+*Objetos*, por sua vez, são instâncias dessas classes. Ou seja, quando criamos um objeto a partir da classe Carro, como carro1 e carro2, 
+ambos terão a mesma estrutura definida pela classe, mas poderão ter valores diferentes em seus atributos. Por exemplo, carro1 pode ter cor vermelha e ser do modelo Uno, 
+enquanto carro2 pode ter cor preta e ser do modelo Civic. 
+Mesmo compartilhando a mesma “receita”, cada objeto representa uma entidade única, com dados próprios.
