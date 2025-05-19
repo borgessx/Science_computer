@@ -1,0 +1,20 @@
+código fonte = escrito pelo programador na programação
+código objeto = que já foi copilado, que já foi feito a analise léxica e sintática
+compilador = transforma o código fonte em código objeto. Se estiver algum erro na léxica e sintática, o 
+compilador vai avisar e não vai prosseguir com o código fonte.
+
+E o código objeto vai passar pelo gerador de código,vai enviar para executavel, que vai acontecer o processo contrução, 
+ai depois será executado.
+
+arquivo .o é objeto
+arquivo .exe é executável
+
+E tem o processo interpretação, que o código fonte já é analisado e enviado para a execução, sem passar pelo objeto e o executavel.
+Esse processo intrepretação é utilizado em Python.
+
+¨¨¨Abordagem híbrida esse processo é utilizado pelo Java.
+o código fonte, passa para compilador que faz analise, depois gera um código objeto que recebe um nome de bytecode, vai para maquina
+virtual de intrepretação, que depois vai para execução.
+
+quando cria um programa java, nos arquivos é criado um pasta chamada BIN, que é o bytecode, código pré copilados.
+arquivo .class tem que ser executado a partir da máquina virtual de Java
