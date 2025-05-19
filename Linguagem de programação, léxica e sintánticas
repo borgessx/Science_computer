@@ -1,0 +1,17 @@
+léxixas = ortografia
+sintáticas = gramática
+
+léxica
+diz a respeito das correção das palavras
+cachorro(certo) caxorro(errado)
+programação
+main(certo)
+maim(errado)
+
+sintática
+diz a respeito à correção das sentenças
+o cachorro está com fome (certo)
+a cachorro está com fome (errado)
+programação
+x = 2 + y ( certo)
+x= + 2 y (errado)
