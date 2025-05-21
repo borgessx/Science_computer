@@ -1,0 +1,81 @@
+-----¨¨¨¨¨¨¨¨______  expressões aritméticas
+
+são expressões que o resultado é um número
++ adição
+- subtração
+* multiplicação
+/ divisão
+% resto da divisão
+
+precedência (preferencia) = 1o lugar: *, / e %
+                            2o lugar: +  e -
+
+2 * 6 / 3 = quando tem a mesma precedência, será resolvido da esquerda para direita
+3 + 2 * 4 = primeiro a multiplicação, por ter a precêdencia maior
+(3+2) * 4 = tudo que está em parêntese é feito em primeiro
+60 / (3+2) * 4 = resolve primeiro o que está em parêntese. Depois resolve com maior precedência. Como os dois tem maior precedência,
+resolve da esquerda para direita. R: 3+2= 5, 60/5 = 12, 12*4 = 48
+60 / (3+2) * 4) = priemiro o 3 + 2 e depois o * 4, e por fim dividir o 60.
+
+-----¨¨¨¨¨¨¨¨______ VARIÁVEIS - TIPOS BÁSICOS EM JAVA
+
+Um programa em execução lida com dados, e os dados são armazenados em variáveis.
+
+Uma variável é uma porção de memória(ram) utilizada para armazenar dados durante a execução dos programas.
+ ex:
+variáveis
+nome(variável) = "Maria" (valor que recebe a variável)
+
+**como declarar uma variável
+ <tipo> <nomme> = <valor inicial>;
+
+exemplos:
+int(tipo) idade(nome) = 25 (valor inicial) ;(e ponto e vírgula para finalizar)
+  int = números inteiros
+
+double(tipo) altura(nome) = 1.68(valor inicial) ;(final)
+  double = é um número que tem ponto, números com casa decimais. O float de Python.
+
+char(tipo) sexo(nome) = "F"(valor);(fim)
+  char = são os caracteres
+
+boolean = verdadeiro ou falso
+
+-----¨¨¨¨¨¨¨¨______ Tipos primitivos em JAVA
+
+unicode são os valores de cada letra em Java
+ex : "a" = "\u0061" se eu colocar esse valor, vai aparecer a 
+
+-----¨¨¨¨¨¨¨¨______ Nomes variáveis
+
+*deve-se começar o nome com : letra ou _  , exemplo = int _5minutos | int salario | int salarioDoFuncionario
+*não pode ter espaço em branco
+* sem usar acentos
+* usar padrão camel case : escrever as palavras compostas ou frases, onde cada palavra 
+é iniciada com maiúsculas e unidas sem espaços
+exemplo : int SalrioDoFuncionario | char NomeDosAlunos | int TotalDeCompras
+
+-----¨¨¨¨¨¨¨¨______ Operações do programa
+
+  Entrada de Dados -> Processamento de dados -> Saída de dados
+
+*entrada de dados: 
+usuário -> programa (atraveis de variáveis)
+a partir de dispositivos de entrado. Tipo : teclado
+  também chamada de leitura:
+  "o programa está lendo os dados"
+
+*processamneto de dados
+ocorre dentro do processador
+é quando o programa realiza os cálculos
+
+*saída de dados
+programa -> usuário
+a partir de dispositivos de saída. Tipo: Monitor
+  também chamda de escrita
+
+-----¨¨¨¨¨¨¨¨______
+
+
+
+
