@@ -145,4 +145,30 @@ double g;
 char x;
 x = sc.next().charAt(0); // ele vai ler o primeiro caracter que digitar
 
+o .next(); 	// ele recebe apenas uma palavra
+.nextLine(); 	// ele recebe a linha inteira que foi digitada
+
+*** entrada de numeros e string
+
+Quando voce usar algo diferente de .nextLine();, tipo .nextInt();
+Isso dá erro, porque quando voce digitar o número e da enter, e passar para próxima variável que é o .nextLine(), 
+ela vai receber o espaço do enter.
+Então, a solução:
+Colocar um ponto .nextLine(); depois do nextInt(); ou outras variáveis de npumeros.
+
+exemplo:
+		int x;
+		String s1,s2,s3;
+		
+		x = sc.nextInt();
+		sc.nextInt();	// solução, next para não dar erro
+		s1 = sc.nextLine();
+		s2 = sc.nextLine();
+		s3 = sc.nextLine();
+		
+		System.out.println("DADOS DIGITADOS: ");
+		System.out.println(x);
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
 
