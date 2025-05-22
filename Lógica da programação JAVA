@@ -74,8 +74,75 @@ programa -> usuário
 a partir de dispositivos de saída. Tipo: Monitor
   também chamda de escrita
 
------¨¨¨¨¨¨¨¨______
+-----¨¨¨¨¨¨¨¨______ Processamentos de dados
+
+variável = expressão;
+
+tem que informar o que a variável é
+exemplo:
+double a,A,b;
+a = 6.0
+A =7.0
+b = 8.0
+
+int b,B,a;
+b = 2
+B = 6
+a = 8
+
+casting
+double aa;
+		int bb;
+		aa = 5.0;
+		bb = (int) aa; // o que converte é esse (int), pode ser ao contarrio também, de int para double, ai coloca (double)
+	
+		System.out.println(bb);
 
 
+-----¨¨¨¨¨¨¨¨______ Entrada de dados pt1
+//tipo o input de python
+Para fazer entrada de dados, nós vamos criar um objeto do tipo "Scanner" da seguinte forma:
+
+Scanner sc = new Scanner(System.in);  # está associando o Scanner ao teclado = System.in
+ para utilizar essa função tem que importar
+
+import java.util.Scanner;
+
+e quando não precisar mais do objeto sc, faça sc.close()
+
+*** para adicionar uma palavra dentro da variável
+exemplo:
+
+String x;
+x = sc.next();
+
+macete: se digitar sysou , e depois der ctrl+espaço. ele commpleta: System.out.println();
+
+*** entrada de números inteiros
+x = sc.nextInt(); // x de variável
+
+*** entrada num flutuante
+
+x = sc.nextDouble();
+
+*** Considerar o separador de decimais para ponto
+o nosso teclado está em portugues. Em PT-BR devemos usar vírgula
+se utilizarmos essa função:
+Locale.setDefault(Locale.US);
+
+*** continuar com vírgula
+
+mesmo digitando com a vírgula, quando println aparece com ponto. // println vai usar localidade padrão que é US
+Para que print com vírgula, usar:
+troque println por printf, e adicione formatação = %.2f%n
+exemplo:
+double g;
+		g = sc.nextDouble();
+		System.out.printf("Voce digitou: %.2f%n", x);
+		sc.close();
+
+*** entrada caracteres
+char x;
+x = sc.next().charAt(0); // ele vai ler o primeiro caracter que digitar
 
 
