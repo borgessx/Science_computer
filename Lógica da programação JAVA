@@ -172,3 +172,9 @@ exemplo:
 		System.out.println(s2);
 		System.out.println(s3);
 
+
+-----¨¨¨¨¨¨¨¨______ Funções de matemática
+
+A = Math.sqrt(x);	// Variável A recebe raiz quadrada de X
+A = Math.pow(x,y);	// Variável A recebe o resultado de X elevado a Y
+A = Math.abs(x); 	//Variável A recebe o valor absoluto de X, valor sem negativo.
