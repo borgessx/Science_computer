@@ -1,0 +1,59 @@
+---____---------___---___ ESTRUTURA CONDICIONAL 
+
+Expressões compartivas
+expressão >>resultado>> valor verdade
+  5>10    >>resultado>>  falso
+  5<10    >>resultado>>  verdadeiro
+
+operadores comparativos
+
+operador        significado
+  >                maior
+  <                menor
+  >=             maior ou igual
+  <=             menor ou igual
+  ==                igual
+  !=               diferente
+
+---____---------___---___ EXPRESSÕES LÓGICAS
+
+expressões >>resultado>> valor verdade
+
+operador          significado
+  &&                   E
+  ||                   OU
+  !                   NÃO
+
+tabela verdade do operador E (&&)
+f(falso)   v(verdadeiro)
+A      B                A&&B
+
+f      f                  f
+f      v                  f
+v      f                  f
+v      v                  v
+
+
+tabela verdade do operador OU (||)
+exige que apenas um seja verdadeiro
+A      B                A&&B
+
+f      f                  f
+f      v                  v
+v      f                  v
+v      v                  v
+
+
+operador não (!)
+inverte o valor verdade
+!(5==10)          valor=f    !=v
+!(5>=2)           valor=v    !=f
+!(x<=20 && x==10) valor=f    !=v         # ele inverter o valor, deu falso, mas com operador não ! vira verdadeiro
+
+tabela verdade do operador NÃO (!)
+verdadeiro vira falso, e falso vira verdadeiro
+A       !A
+
+f        v
+v        f
+
