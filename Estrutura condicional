@@ -53,7 +53,30 @@ inverte o valor verdade
 tabela verdade do operador NÃO (!)
 verdadeiro vira falso, e falso vira verdadeiro
 A       !A
+f        v
+v        f
+
 
 f        v
 v        f
 
+---____---------___---___ Estrutura condicional (if-else)
+
+** Encadeamento de estruturas condicionais
+Scanner sc = new Scanner(System.in);
+		int hora;
+		
+		System.out.println("Quantas horas?");
+		hora = sc.nextInt();
+		
+		if (hora<12) {
+			System.out.println("Bom dia");
+		}
+		
+		else if (hora < 18) {
+			System.out.println("Boa Tarde");
+		}
+		else {
+			System.out.println("Boa Noite");
+		}
+		sc.close();
