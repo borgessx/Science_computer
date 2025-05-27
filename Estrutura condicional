@@ -80,3 +80,12 @@ Scanner sc = new Scanner(System.in);
 			System.out.println("Boa Noite");
 		}
 		sc.close();
+
+---____---------___---___ ABREVIAÇÃO DE VARIÁVEL, OPERADORES DE ATRIBUIÇÃO CUMULATIVA
+
+A = A + B;		A += B;
+A = A - B;		A -= B;
+A = A * B;		A *= B;
+A = A / B;		A /= B;
+A = A % B;		A %= B;
+
