@@ -178,3 +178,26 @@ exemplo:
 A = Math.sqrt(x);	// Variável A recebe raiz quadrada de X
 A = Math.pow(x,y);	// Variável A recebe o resultado de X elevado a Y
 A = Math.abs(x); 	//Variável A recebe o valor absoluto de X, valor sem negativo.
+
+-----¨¨¨¨¨¨¨¨______ FORMATAÇÃO
+
+Principais especificadores de formato:
+%d – número inteiro
+
+%f – número decimal (float ou double)
+
+%s – string (texto)
+
+%n – nova linha (melhor que \n no Java, pois é mais portátil)
+
+%c – caractere
+
+1. Imprimir um número inteiro:
+
+int idade = 25;
+System.out.printf("Tenho %d anos.%n", idade);
+
+2. Imprimir números com casas decimais:
+
+double preco = 49.99;
+System.out.printf("O preço é R$ %.2f%n", preco);
